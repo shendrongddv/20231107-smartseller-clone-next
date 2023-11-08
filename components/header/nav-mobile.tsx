@@ -68,8 +68,8 @@ export const NavMobile = () => {
   return (
     <div className="h-full p-4">
       <div className="flex flex-col">
-        <span className="text-sm">Solusi Bisnis Online</span>
-        <ul className="mt-2 grid grid-cols-2 gap-2">
+        {/* <span className="text-sm">Solusi Bisnis Online</span> */}
+        <ul className="grid grid-cols-2 gap-2">
           {NavProduct?.map((item) => (
             <li key={item.url}>
               <SheetClose asChild>
@@ -78,9 +78,10 @@ export const NavMobile = () => {
                   aria-label={item.label}
                   className={cn(
                     buttonVariants({
-                      variant: "outline",
+                      variant: "secondary",
                       size: "default",
-                      className: "flex h-max flex-col items-center gap-2 p-2",
+                      className:
+                        "flex h-max flex-col items-center gap-2 border border-transparent px-2 py-4 hover:border-inherit hover:bg-transparent",
                     }),
                   )}
                 >
@@ -111,7 +112,8 @@ export const NavMobile = () => {
                 asChild
                 variant="link"
                 size="default"
-                className="-translate-x-4 transition duration-500 hover:translate-x-0"
+                className="px-0"
+                // className="-translate-x-4 transition duration-500 hover:translate-x-0"
               >
                 <Link href={item.url} aria-label={item.label}>
                   {item.label}

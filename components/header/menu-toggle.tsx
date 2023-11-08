@@ -36,9 +36,9 @@ export const MenuToggle = () => {
         {/* Nav */}
         <NavMobile />
 
-        <SheetFooter className="mt-auto grid grid-cols-2 gap-4 border-t p-4">
+        <SheetFooter className="mt-auto grid grid-cols-2 gap-2 border-t p-4">
           <SheetClose asChild>
-            <Button asChild variant="default" size="sm" className="px-4">
+            <Button asChild variant="default" size="default" className="px-4">
               <Link href="/" aria-label="Daftar Gratis">
                 Daftar Gratis
               </Link>
@@ -46,7 +46,7 @@ export const MenuToggle = () => {
           </SheetClose>
 
           <SheetClose asChild>
-            <Button asChild variant="outline" size="sm" className="px-4">
+            <Button asChild variant="outline" size="default" className="px-4">
               <Link href="/" aria-label="Login">
                 Login
               </Link>
