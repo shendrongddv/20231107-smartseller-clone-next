@@ -1,6 +1,10 @@
+.swiper-slide {
+  height: auto !important;
+}
+
 .swiper-pagination {
   position: relative !important;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .swiper-pagination-bullet {

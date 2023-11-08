@@ -158,6 +158,58 @@ export const dataBenefits = [
   },
 ];
 
+// Reviews
+export const dataReviews = [
+  {
+    id: 1,
+    name: "John Doe",
+    isMale: true,
+    institution: { name: "ABC Corporation", position: "Manager" },
+    review:
+      "I have been using the services of SmartSeller for my online business and I must say it has been a game-changer. Their platform is user-friendly and has helped me reach a wider audience, resulting in increased sales. The customer support team is also very responsive and helpful. Highly recommended!",
+  },
+  {
+    id: 2,
+    name: "Jane Smith",
+    isMale: false,
+    institution: { name: "XYZ Enterprises", position: "Marketing Executive" },
+    review:
+      "As a marketing professional, I have found SmartSeller to be an excellent platform for promoting our products. The features they offer, such as targeted advertising and analytics, have helped us optimize our marketing campaigns and achieve better results. The platform is intuitive and easy to navigate, making it a pleasure to work with.",
+  },
+  {
+    id: 3,
+    name: "Michael Johnson",
+    isMale: true,
+    institution: { name: "PQR Limited", position: "Director" },
+    review:
+      "SmartSeller has revolutionized the way we manage our inventory and handle orders. Their inventory management system is efficient and has helped us streamline our operations. The order fulfillment process is smooth, and the integration with various logistics partners has made shipping hassle-free. SmartSeller has definitely improved our overall efficiency and customer satisfaction.",
+  },
+  {
+    id: 4,
+    name: "Emily Brown",
+    isMale: false,
+    institution: { name: "LMN Retail", position: "Store Manager" },
+    review:
+      "I have been using SmartSeller for my retail store and it has been a great experience. The platform is easy to set up and customize according to our branding. The inventory management feature has helped us keep track of our stock levels and ensure timely restocking. The sales analytics provided by SmartSeller have also been instrumental in making data-driven decisions for our business.",
+  },
+  {
+    id: 5,
+    name: "Robert Wilson",
+    isMale: true,
+    institution: { name: "JKL Fashion", position: "Fashion Designer" },
+    review:
+      "SmartSeller has been a valuable tool for my fashion business. The platform's online store templates are visually appealing and showcase my products effectively. The integrated payment gateway and secure checkout process have instilled trust in my customers. I have seen a significant increase in online sales since using SmartSeller.",
+  },
+  {
+    id: 6,
+    name: "Sarah Davis",
+    isMale: false,
+    institution: { name: "STU Accessories", position: "Founder" },
+    review:
+      "I started my online accessories store with SmartSeller and it has exceeded my expectations. The platform provides a comprehensive set of e-commerce tools, from inventory management to marketing features. The customer support team has been proactive in addressing any queries or issues I have encountered. SmartSeller has been instrumental in the success of my online business.",
+  },
+];
+
 // FAQ
 export const dataFAQ = [
   {

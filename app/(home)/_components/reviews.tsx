@@ -1,14 +1,17 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
+import { ReviewSliders } from "./review-sliders";
 
 const ReviewsSection = () => {
   return (
-    <section className="bg-slate-50 px-4 py-24">
+    <section className="bg-slate-50 py-24 md:px-4">
       <div className="container flex flex-col items-center gap-8">
-        <h2 className="text-center text-3xl font-bold text-foreground md:w-1/2">
+        <h2 className="text-center text-3xl font-bold text-foreground max-md:mx-2 md:w-1/2">
           Cerita pemilik olshop #jadimudah dengan SmartSeller
         </h2>
+
+        <ReviewSliders />
 
         <Button
           asChild

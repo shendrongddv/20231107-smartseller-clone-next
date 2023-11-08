@@ -58,7 +58,7 @@ type SingleCardProps = {
 };
 const SingleCard = ({ id, title, desc, mediaIcon: Icon }: SingleCardProps) => {
   return (
-    <div className="flex h-full flex-col justify-start gap-2 rounded-xl border p-4 transition duration-500 hover:border-transparent hover:bg-background hover:shadow-lg">
+    <div className="flex h-full flex-col justify-start gap-2 rounded-xl bg-slate-100 p-4 transition duration-500 hover:bg-background">
       <Icon className="h-6 w-6 text-accent-foreground" />
       <h3 className="font-bold text-foreground md:text-lg">{title}</h3>
       <p className="text-sm md:text-base">{desc}</p>
