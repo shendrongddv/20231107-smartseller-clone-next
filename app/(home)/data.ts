@@ -51,6 +51,46 @@ export const dataProductBenefit = [
   },
 ];
 
+// LogoClouds
+export const dataLogoClouds = [
+  {
+    id: 11,
+  },
+  {
+    id: 12,
+  },
+  {
+    id: 13,
+  },
+  {
+    id: 14,
+  },
+  {
+    id: 15,
+  },
+  {
+    id: 16,
+  },
+  {
+    id: 17,
+  },
+  {
+    id: 18,
+  },
+  {
+    id: 39,
+  },
+  {
+    id: 63,
+  },
+  {
+    id: 86,
+  },
+  {
+    id: 87,
+  },
+];
+
 // FAQ
 export const dataFAQ = [
   {
