@@ -119,6 +119,8 @@ export const SocialLink = ({ label, url, icon: Icon }: SocialLinkProps) => {
     <Link
       href={url}
       aria-label={label}
+      rel="noopener noreferrer"
+      target="_blank"
       className={cn(
         buttonVariants({
           variant: "secondary",

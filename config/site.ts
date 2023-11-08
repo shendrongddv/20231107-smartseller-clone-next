@@ -134,25 +134,25 @@ export const SocialLinks = [
   {
     id: "262c0f1c-e5b7-5a49-b2a0-2acdf66c28da",
     label: "Facebook",
-    url: "/",
+    url: "https://facebook.com",
     icon: Facebook,
   },
   {
     id: "ba9bb284-a9d0-578a-92d3-a1bf18fb547e",
     label: "Instagram",
-    url: "/",
+    url: "https://instagram.com",
     icon: Instagram,
   },
   {
     id: "96732ac8-2a5d-5d56-82b6-ff4b1398ed90",
     label: "Twitter",
-    url: "/",
+    url: "https://twitter.com",
     icon: Twitter,
   },
   {
     id: "b1d19dba-c390-5a3c-b4f6-8cf1a506dfe2",
     label: "YouTube",
-    url: "/",
+    url: "https://youtube.com",
     icon: Youtube,
   },
 ];

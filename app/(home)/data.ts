@@ -1,3 +1,56 @@
+// ProductDetail
+export const dataProductDetail = [
+  {
+    id: "7eb78780-d137-561b-8aa6-9312861eaac1",
+    title: "Mudah pantau & kelola order dari mana saja",
+    subtitle: "Order Management",
+    desc: "Lebih mudah mengelola orderan dimanapun kamu berjualan baik di social media, di web toko online atau di marketplace dengan sistem manajemen yang baik, cukup melalui satu sistem yang terpadu di SmartSeller",
+    url: "/",
+    media: "home-3.png",
+  },
+  {
+    id: "994cbfcc-3b06-5160-b688-9ddc6b1efbae",
+    title: "Atur Stok untuk semua channel penjualan",
+    subtitle: "Inventory Management",
+    desc: "Dengan sistem inventori SmartSeller, kamu bisa mengatur dan memantau ketersediaan stok produk dengan dukungan multi gudang dan tetap terupdate dimanapun kamu berjualan",
+    url: "/",
+    media: "home-3.png",
+  },
+  {
+    id: "702c3003-cfab-5400-a3dc-72ed3741f15b",
+    title: "Terhubung ke puluhan kurir, bisa COD dan jemput dirumah",
+    subtitle: "Shipping Management",
+    desc: "Kami memberikan lebih banyak pilihan ekspedisi terbaik yang memudahkan pengiriman dengan fasilitas Pick-up langsung dari kurir favoritmu dengan pembayaran Cashless. Selain itu, maksimalkan penjualan dengan sistem pembayaran Cash on Delivery untuk customermu.",
+    url: "/",
+    media: "home-3.png",
+  },
+];
+
+// ProductBenefit
+export const dataProductBenefit = [
+  {
+    id: "IDXXX",
+    title: "Terintegrasi dengan Marketplace, atur semuanya jadi mudah",
+    desc: "Manfaatkan fitur powerful integrasi dengan marketplace terbesar di Indonesia untuk mengelola semua produk, stok dan orderan di marketplace langsung dari dashboard SmartSeller.",
+    url: "/",
+    icon: "marketplace.svg",
+  },
+  {
+    id: "IDXXX",
+    title: "Dengan Storefront, buat web toko online tak semudah ini sebelumnya",
+    desc: "Miliki web toko online-mu sendiri tanpa perlu ribet dengan teknis seperti desain dan coding. Pembuatan sangat cepat, tampilan mudah dikustomisasi sesuai brand bisnismu, serta mendukung pembayaran dengan Payment Gateway.",
+    url: "/",
+    icon: "storefront.svg",
+  },
+  {
+    id: "IDXXX",
+    title: "Dapatkan Insight dan laporan bisnis kamu secara detail",
+    desc: "Dapatkan metrik-metrik penting penjualan dan analisa bisnis secara detail yang bisa membantu mengambil keputusan untuk peningkatan bisnismu.",
+    url: "/",
+    icon: "analytics.svg",
+  },
+];
+
 // FAQ
 export const dataFAQ = [
   {
