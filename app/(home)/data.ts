@@ -1,3 +1,28 @@
+// PromoSlide
+export const dataPromoSlide = [
+  {
+    id: 1,
+    media: {
+      desktop: "promo-desktop-1.webp",
+      mobile: "promo-mobile-1.webp",
+    },
+  },
+  {
+    id: 2,
+    media: {
+      desktop: "promo-desktop-2.webp",
+      mobile: "promo-mobile-2.webp",
+    },
+  },
+  {
+    id: 3,
+    media: {
+      desktop: "promo-desktop-3.webp",
+      mobile: "promo-mobile-3.webp",
+    },
+  },
+];
+
 // ProductDetail
 export const dataProductDetail = [
   {

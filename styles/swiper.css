@@ -1,0 +1,13 @@
+.swiper-pagination {
+  position: relative !important;
+  margin-top: 1rem;
+}
+
+.swiper-pagination-bullet {
+  transition: 1s ease;
+}
+
+.swiper-pagination-bullet-active {
+  width: 2rem !important;
+  border-radius: 9999px !important;
+}

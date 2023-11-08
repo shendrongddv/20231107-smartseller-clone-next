@@ -1,6 +1,7 @@
 import BenefitSection from "./_components/benefit";
 import { CtaAlpha } from "./_components/cta";
 import FaqSection from "./_components/faq";
+import HeroSection from "./_components/hero";
 import IntegrationsSection from "./_components/integrations";
 import LogoCloudsSection from "./_components/logo-clouds";
 import ProductDetailSection from "./_components/product-detail";
@@ -11,9 +12,7 @@ const HomePage = () => {
   return (
     <>
       {/* Hero */}
-      <section className="px-4 py-24">
-        <div className="container">HomePage</div>
-      </section>
+      <HeroSection />
 
       {/* ProductDetail */}
       <ProductDetailSection />
