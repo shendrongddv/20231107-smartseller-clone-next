@@ -28,7 +28,7 @@ export const SiteLogoFooter = () => {
   return (
     <Link href="/" aria-label="Home">
       <Image
-        src="/logo-gray.svg"
+        src="/logo-dark.svg"
         aria-hidden
         alt="SmartSeller"
         width={40}

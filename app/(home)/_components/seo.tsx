@@ -16,7 +16,7 @@ const SeoSection = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <section className="px-4 py-24">
+    <section className="bg-slate-50 px-4">
       <div className="container">
         <Collapsible
           open={isOpen}
