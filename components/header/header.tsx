@@ -42,13 +42,23 @@ export const Header = () => {
 
             {/* ButtonGroups */}
             <div className="flex items-center justify-center gap-2">
-              <Button asChild variant="default" size="sm" className="px-4">
+              <Button
+                asChild
+                variant="default"
+                size="sm"
+                className="bg-accent-foreground px-4 hover:bg-accent-foreground/80"
+              >
                 <Link href="/" aria-label="Daftar Gratis">
                   Daftar Gratis
                 </Link>
               </Button>
 
-              <Button asChild variant="secondary" size="sm" className="px-4">
+              <Button
+                asChild
+                variant="outline"
+                size="sm"
+                className="bg-transparent px-4 text-foreground"
+              >
                 <Link href="/" aria-label="Login">
                   Login
                 </Link>

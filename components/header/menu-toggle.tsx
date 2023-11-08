@@ -19,7 +19,7 @@ export const MenuToggle = () => {
         <Button
           variant="outline"
           size="icon"
-          className="bg-transparent text-foreground"
+          className="bg-transparent text-accent-foreground"
         >
           <Menu className="h-4 w-4" />
         </Button>
@@ -38,7 +38,12 @@ export const MenuToggle = () => {
 
         <SheetFooter className="mt-auto grid grid-cols-2 gap-2 border-t p-4">
           <SheetClose asChild>
-            <Button asChild variant="default" size="default" className="px-4">
+            <Button
+              asChild
+              variant="default"
+              size="default"
+              className="bg-accent-foreground px-4 hover:bg-accent-foreground/80"
+            >
               <Link href="/" aria-label="Daftar Gratis">
                 Daftar Gratis
               </Link>
@@ -46,7 +51,12 @@ export const MenuToggle = () => {
           </SheetClose>
 
           <SheetClose asChild>
-            <Button asChild variant="outline" size="default" className="px-4">
+            <Button
+              asChild
+              variant="outline"
+              size="default"
+              className="px-4 text-foreground"
+            >
               <Link href="/" aria-label="Login">
                 Login
               </Link>

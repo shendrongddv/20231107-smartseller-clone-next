@@ -1,3 +1,5 @@
+import { Chrome, Laptop2, RefreshCw, Store } from "lucide-react";
+
 // PromoSlide
 export const dataPromoSlide = [
   {
@@ -113,6 +115,104 @@ export const dataLogoClouds = [
   },
   {
     id: 87,
+  },
+];
+
+// Benefits
+export const dataBenefits = [
+  {
+    id: 1,
+    title: "Jualan di Facebook & Instagram",
+    desc: "Buat feeds produkmu untuk Facebook dan Instagram Shopping.",
+    media: {
+      image: "benefit.png",
+      icon: Chrome,
+    },
+  },
+  {
+    id: 2,
+    title: "Jualan ke Reseller & Dropshiper",
+    desc: "Private Order System untuk order dan transaksi dengan Reseller lebih mudah.",
+    media: {
+      image: "benefit.png",
+      icon: RefreshCw,
+    },
+  },
+  {
+    id: 3,
+    title: "Jualan di Web Toko Online",
+    desc: "Bisa jualan di Storefront dengan stok yang terpusat.",
+    media: {
+      image: "benefit.png",
+      icon: Laptop2,
+    },
+  },
+  {
+    id: 4,
+    title: "Jualan di Marketplace",
+    desc: "Terintegrasi dengan marketplace besar di Indonesia, order, produk dan stok tetap terhubung.",
+    media: {
+      image: "benefit.png",
+      icon: Store,
+    },
+  },
+];
+
+// Reviews
+export const dataReviews = [
+  {
+    id: 1,
+    gender: "female",
+    name: {
+      title: "Ms",
+      first: "Sibille",
+      last: "Demmer",
+    },
+    location: {
+      street: {
+        number: 7098,
+        name: "Gartenstraße",
+      },
+      city: "Nienburg/Weser",
+      state: "Sachsen-Anhalt",
+      country: "Germany",
+      postcode: 14252,
+      timezone: {
+        offset: "+7:00",
+        description: "Bangkok, Hanoi, Jakarta",
+      },
+    },
+    email: "sibille.demmer@example.com",
+    login: {
+      uuid: "d2ecb59d-0f9d-4f52-be33-ae13e2f53c5a",
+      username: "blueostrich932",
+      password: "chico",
+      salt: "0L10uj96",
+      md5: "30d70a143da40df2cccc9573a74fbc84",
+      sha1: "976ca01203fb24bbc55e14b23d7528b1bd7eb596",
+      sha256:
+        "6feb5086632eb19b5e5c47c0fba631505c92a1d221568105c35559cd4e12f214",
+    },
+    dob: {
+      date: "1951-07-30T16:21:30.610Z",
+      age: 72,
+    },
+    registered: {
+      date: "2006-12-28T21:36:19.759Z",
+      age: 16,
+    },
+    phone: "0193-2736947",
+    cell: "0178-9253789",
+    id: {
+      name: "SVNR",
+      value: "82 300751 D 898",
+    },
+    picture: {
+      large: "https://randomuser.me/api/portraits/women/85.jpg",
+      medium: "https://randomuser.me/api/portraits/med/women/85.jpg",
+      thumbnail: "https://randomuser.me/api/portraits/thumb/women/85.jpg",
+    },
+    nat: "DE",
   },
 ];
 
