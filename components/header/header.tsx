@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ModeToggle } from "../mode-toggle";
 import { SiteLogo } from "../site-logo";
 import { Button } from "../ui/button";
+import { MenuToggle } from "./menu-toggle";
 
 export const Header = () => {
   return (
@@ -53,6 +54,11 @@ export const Header = () => {
                 </Link>
               </Button>
             </div>
+          </div>
+
+          {/* MenuToggle */}
+          <div className="flex md:hidden">
+            <MenuToggle />
           </div>
         </div>
       </div>

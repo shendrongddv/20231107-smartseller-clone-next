@@ -17,7 +17,7 @@ export const SiteLogo = () => {
         alt="SmartSeller"
         width={40}
         height={40}
-        className="h-9 w-auto"
+        className="h-7 w-auto md:h-9"
       />
     </Link>
   );
