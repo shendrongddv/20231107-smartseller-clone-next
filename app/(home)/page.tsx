@@ -7,12 +7,16 @@ import LogoCloudsSection from "./_components/logo-clouds";
 import ProductDetailSection from "./_components/product-detail";
 import ReviewsSection from "./_components/reviews";
 import SeoSection from "./_components/seo";
+import WhatsNewSection from "./_components/whats-new";
 
 const HomePage = () => {
   return (
     <>
       {/* Hero */}
       <HeroSection />
+
+      {/* WhatsNew */}
+      <WhatsNewSection />
 
       {/* ProductDetail */}
       <ProductDetailSection />

@@ -29,7 +29,6 @@ export const PromoSlider = () => {
             <figure className="aspect-h-16 aspect-w-9 flex items-center justify-center overflow-hidden rounded-2xl bg-slate-100 md:aspect-h-8 md:aspect-w-16">
               <Image
                 src={`/slides/${item.media.desktop}`}
-                priority
                 alt="Desktop Image"
                 width={1140}
                 height={597}

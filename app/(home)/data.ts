@@ -16,12 +16,29 @@ export const dataPromoSlide = [
       mobile: "promo-mobile-2.webp",
     },
   },
+];
+
+// WhatsNew
+export const dataWhatsNew = [
+  {
+    id: 1,
+    title:
+      "Terbaru! Indikator daya beli RichBuyer sekarang tersedia di Shopee Chat. Install sekarang!",
+    date: "27 Juli 2023",
+    media: "whats-new-1.webp",
+  },
+  {
+    id: 2,
+    title:
+      "Mulai tanggal 5 April 2023, Transaksi pengiriman dengan order COD dan NON COD akan diproses setelah order NON COD dibaya...",
+    date: "28 Maret 2023",
+    media: "whats-new-2.webp",
+  },
   {
     id: 3,
-    media: {
-      desktop: "promo-desktop-3.webp",
-      mobile: "promo-mobile-3.webp",
-    },
+    title: "Ketahui daya beli pelanggan dengan RichBuyer, Install sekarang!",
+    date: "21 Maret 2023",
+    media: "whats-new-3.webp",
   },
 ];
 
@@ -33,7 +50,7 @@ export const dataProductDetail = [
     subtitle: "Order Management",
     desc: "Lebih mudah mengelola orderan dimanapun kamu berjualan baik di social media, di web toko online atau di marketplace dengan sistem manajemen yang baik, cukup melalui satu sistem yang terpadu di SmartSeller",
     url: "/",
-    media: "home-3.png",
+    media: "assets-1.webp",
   },
   {
     id: "994cbfcc-3b06-5160-b688-9ddc6b1efbae",
@@ -41,7 +58,7 @@ export const dataProductDetail = [
     subtitle: "Inventory Management",
     desc: "Dengan sistem inventori SmartSeller, kamu bisa mengatur dan memantau ketersediaan stok produk dengan dukungan multi gudang dan tetap terupdate dimanapun kamu berjualan",
     url: "/",
-    media: "home-3.png",
+    media: "assets-2.webp",
   },
   {
     id: "702c3003-cfab-5400-a3dc-72ed3741f15b",
@@ -49,7 +66,7 @@ export const dataProductDetail = [
     subtitle: "Shipping Management",
     desc: "Kami memberikan lebih banyak pilihan ekspedisi terbaik yang memudahkan pengiriman dengan fasilitas Pick-up langsung dari kurir favoritmu dengan pembayaran Cashless. Selain itu, maksimalkan penjualan dengan sistem pembayaran Cash on Delivery untuk customermu.",
     url: "/",
-    media: "home-3.png",
+    media: "assets-1.webp",
   },
 ];
 

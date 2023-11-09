@@ -16,7 +16,7 @@ const IntegrationsSection = () => {
           <div className="md:w-4/12">
             <figure className="mx-auto grid aspect-1 w-4/5 place-content-center md:w-full">
               <Image
-                src="/benefit.png"
+                src="/assets-2.webp"
                 alt="Image"
                 width={480}
                 height={480}
