@@ -7,42 +7,46 @@ h6 {
   @apply font-display;
 }
 
-.h1 {
+/* .h1 {
   @apply scroll-m-20 font-display text-4xl font-extrabold tracking-tight lg:text-5xl;
-}
+} */
 
 .h2 {
-  @apply scroll-m-20 border-b pb-2 font-display text-3xl font-semibold tracking-tight transition-colors first:mt-0;
+  @apply text-2xl font-bold md:text-3xl;
 }
 
 .h3 {
-  @apply scroll-m-20 font-display text-2xl font-semibold tracking-tight;
+  @apply text-xl font-bold md:text-2xl;
 }
 
-.h4 {
+/* .h4 {
   @apply scroll-m-20 font-display text-xl font-semibold tracking-tight;
-}
+} */
 
-.p {
+/* .p {
   @apply leading-7 [&:not(:first-child)]:mt-6;
-}
+} */
 
-.blockquote {
+/* .blockquote {
   @apply mt-6 border-l-2 pl-6 italic;
-}
+} */
 
-.lead {
+/* .lead {
   @apply text-xl text-muted-foreground;
-}
+} */
 
-.large {
+/* .large {
   @apply text-lg font-semibold;
-}
+} */
 
-.small {
+/* .small {
   @apply text-sm font-medium leading-none;
-}
+} */
 
-.muted {
+/* .muted {
   @apply text-sm text-muted-foreground;
+} */
+
+.subtitle {
+  @apply text-sm uppercase;
 }

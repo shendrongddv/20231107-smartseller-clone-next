@@ -6,7 +6,7 @@ import { dataCTA } from "../data";
 
 export const CTA_Alpha = () => {
   return (
-    <section className="px-4 py-24">
+    <section className="bg-slate-100 px-4">
       <div className="container rounded-2xl bg-[#FACF6C] md:p-12 md:pl-0">
         {/* Row */}
         <div className="flex flex-col gap-4 md:flex-row md:items-stretch md:justify-between">

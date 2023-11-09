@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const WhatsNewSection = () => {
   return (
-    <section className="bg-gradient-to-b from-slate-50 from-50% to-background to-50% px-4 py-6">
+    <section className="bg-gradient-to-b from-slate-100 from-50% to-background to-50% px-4 py-6">
       <div className="container">
         <div className="z-0 mx-auto flex flex-col md:max-w-md">
           {/* Decor */}

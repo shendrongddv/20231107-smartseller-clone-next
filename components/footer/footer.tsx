@@ -7,7 +7,7 @@ import { buttonVariants } from "../ui/button";
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-50 text-sm">
+    <footer className="bg-slate-100 text-sm">
       {/* MainFooter */}
       <div className="px-4 py-24">
         <div className="container grid w-full gap-12 sm:grid-cols-2 md:grid-cols-5">

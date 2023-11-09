@@ -6,7 +6,7 @@ import { MenuToggle } from "./menu-toggle";
 
 export const Header = () => {
   return (
-    <header className="fixed left-0 top-0 z-50 w-full bg-slate-50 px-4">
+    <header className="fixed left-0 top-0 z-50 w-full bg-slate-100 px-4">
       <div className="container">
         <div className="flex h-16 items-center justify-between gap-4">
           {/* SiteLogo */}
