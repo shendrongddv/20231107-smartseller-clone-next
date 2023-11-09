@@ -1,66 +1,65 @@
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
+import { cn } from "@/lib/utils";
+import { buttonVariants } from "@/components/ui/button";
+import { dataCTA } from "../data";
 
-const data = [
-  {
-    id: 1,
-    title: "Satu dashboard dengan fitur lengkap",
-    icon: "ICON",
-  },
-  {
-    id: 2,
-    title: "Cocok untuk jualan online dimanapun",
-    icon: "ICON",
-  },
-  {
-    id: 3,
-    title: "Customer Support yang siap membantu",
-    icon: "ICON",
-  },
-];
-
-export const CtaAlpha = () => {
+export const CTA_Alpha = () => {
   return (
-    <section className="bg-slate-50 px-4 pb-24">
-      <div className="container flex flex-col gap-12 overflow-hidden rounded-2xl bg-[#FAD06E] pb-4 pt-8 md:flex-row md:items-stretch md:justify-between md:py-12">
-        {/* Col */}
-        <div className="md:w-5/12">
-          <figure className="flex h-full w-full overflow-hidden">
-            <Image
-              src="/macbook-pro-mockup-smartseller.webp"
-              alt="Image"
-              width={1366}
-              height={775}
-              className="h-full w-auto -translate-x-12 md:-translate-x-1/4"
-            />
-          </figure>
-        </div>
+    <section className="px-4 py-24">
+      <div className="container rounded-2xl bg-[#FACF6C] md:p-12 md:pl-0">
+        {/* Row */}
+        <div className="flex flex-col gap-4 md:flex-row md:items-stretch md:justify-between">
+          {/* Col */}
+          <div className="aspect-1 p-4 pl-0 md:w-4/12">
+            <div
+              aria-hidden
+              className="h-full bg-[url(/macbook-pro-mockup-smartseller.webp)] bg-cover bg-right bg-no-repeat"
+            ></div>
+          </div>
 
-        {/* Col */}
-        <div className="px-4 md:w-7/12 md:px-0">
-          <div className="flex flex-col gap-4 md:w-11/12 md:items-start">
-            <h2 className="text-2xl font-bold text-foreground md:items-start md:text-3xl">
-              Aplikasi yang tepat untuk bisnis onlinemu, miliki sekarang!
-            </h2>
+          {/* Col */}
+          <div className="p-4 md:w-7/12">
+            <div className="flex flex-col items-start gap-8">
+              <h2 className="text-2xl font-bold text-foreground md:text-3xl">
+                Aplikasi yang tepat untuk bisnis onlinemu, miliki sekarang!
+              </h2>
 
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae molestias vitae provident, reiciendis eaque ducimus
-              inventore maiores reprehenderit dolorem officia consectetur rem
-              eum hic?
-            </p>
+              <ul className="grid gap-4 md:grid-cols-3">
+                {dataCTA?.map((item, index) => (
+                  <li
+                    key={index}
+                    className="flex items-center gap-4 md:flex-col md:items-start"
+                  >
+                    <Image
+                      src={`/icons/${item.icon}`}
+                      aria-hidden
+                      alt={item.text}
+                      width={48}
+                      height={48}
+                      className="h-10 w-auto"
+                    />
 
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex,
-              possimus? Nemo, at?
-            </p>
+                    <p className="font-semibold text-foreground">{item.text}</p>
+                  </li>
+                ))}
+              </ul>
 
-            <Button asChild variant="default" size="default" className="mt-4">
-              <Link href="/" aria-label="Link">
+              <Link
+                href="/"
+                aria-label="Daftar Gratis"
+                className={cn(
+                  buttonVariants({
+                    variant: "default",
+                    size: "default",
+                    className:
+                      "mt-4 bg-accent-foreground hover:bg-accent-foreground/80",
+                  }),
+                )}
+              >
                 Daftar Gratis
               </Link>
-            </Button>
+            </div>
           </div>
         </div>
       </div>

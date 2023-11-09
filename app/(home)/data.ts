@@ -328,3 +328,22 @@ export const dataSEO = [
     ],
   },
 ];
+
+// CTA
+export const dataCTA = [
+  {
+    icon: "IconUilCheckSquare.svg",
+    text: "Satu dashboard dengan fitur lengkap",
+    desc: "",
+  },
+  {
+    icon: "IconUilStore.svg",
+    text: "Cocok untuk jualan online dimanapun",
+    desc: "",
+  },
+  {
+    icon: "IconUilCommentQuestion.svg",
+    text: "Customer Support yang siap membantu",
+    desc: "",
+  },
+];

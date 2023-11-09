@@ -1,5 +1,5 @@
 import BenefitSection from "./_components/benefit";
-import { CtaAlpha } from "./_components/cta";
+import { CTA_Alpha } from "./_components/cta";
 import FaqSection from "./_components/faq";
 import HeroSection from "./_components/hero";
 import IntegrationsSection from "./_components/integrations";
@@ -37,7 +37,7 @@ const HomePage = () => {
       <FaqSection />
 
       {/* CTA */}
-      <CtaAlpha />
+      <CTA_Alpha />
 
       {/* SEO */}
       <SeoSection />
